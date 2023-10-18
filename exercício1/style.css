@@ -1,0 +1,149 @@
+@charset "utf8";
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/*inportação da fonte*/
+
+body {
+    font-family: 'Playfair';
+    background-image: linear-gradient(to left, #c6c6c6, #7b7b7b);
+}
+
+
+
+img {
+    border-radius: 50%;
+    text-align: center;
+    height: 90px;
+    width: 90px;
+
+}
+
+.animationimg {
+	animation-name: animationimg;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+ @keyframes animationimg {
+  0% {
+    -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+            box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+    -webkit-transform: translateX(8px) translateY(-8px);
+            transform: translateX(8px) translateY(-8px);
+  }
+}
+
+
+  
+
+.animation {
+	animation-name: animation-text;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+
+ @keyframes animation-text {
+    0% {
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: none;
+    }
+    100% {
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: 0 1px 0 #3e3e3e, 0 2px 0 #3e3e3e, 0 3px 0 #3e3e3e, 0 4px 0 #3e3e3e, 0 5px 0 #3e3e3e, 0 6px 0 #3e3e3e, 0 7px 0 #3e3e3e, 0 8px 0 #3e3e3e, 0 9px 0 #3e3e3e, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+  }
+ 
+  
+
+header {
+    text-align: center;
+    color: #ffffff;
+}
+
+.eu {
+    text-align: ce nter, justify;
+}
+
+main {
+    background-color: #ffff;
+    min-width: 400px;
+    max-width: 380px;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    height: 500px;
+}
+
+
+
+hr {
+    color: black;
+}
+
+h4 {
+    text-align: center;
+}
+
+.profissional {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+
+table {
+    text-align: center;
+}
+
+
+
+footer {
+    text-align: center;
+    border-radius: 7px;
+    padding: 30px;
+
+}
+
+#for {
+    padding: 6px 0px 20px 65px
+}
+
+.but {
+    color: #ffff;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    border-radius: 5px;
+    background-color: #B542CA;
+    border: 0.1px solid white;
+    padding: 8px;
+    margin-top: 20px;
+    transition: 1s;
+
+}
+
+
+.but:hover {
+    background-color: #ffff;
+    color: #6527d1;
+    border: 0.1px solid #6527d1;
+}
+
+.barra {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #B542CA;
+}
+
+/*div > p muda o estilo da tag p dentro de uma div*/
