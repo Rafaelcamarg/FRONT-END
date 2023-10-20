@@ -3,18 +3,29 @@
 /*inportação da fonte*/
 
 body {
-    font-family: 'Playfair';
-    background-image: linear-gradient(to left, #c6c6c6, #7b7b7b);
+  background-color: var(--cdf);
 }
 
+:root {
+  --cdf:#a33bb5;
+  --tdl: #000000;
+  --col2: #ffffff;
+  --inpt: #000000;
+}
 
+.trocartema:root {
+  --cdf:#541f5e;
+  --tdl: #ffffff;
+  --col2: #c6c6c6;
+  --inpt: #000000;
+}
 
 img {
+    margin-top: 25px;
     border-radius: 50%;
     text-align: center;
     height: 90px;
     width: 90px;
-
 }
 
 .animationimg {
@@ -69,16 +80,17 @@ header {
 }
 
 .eu {
-    text-align: ce nter, justify;
+    text-align: center, justify;
 }
 
 main {
-    background-color: #ffff;
+    background-color: var(--cdf);
+    color: var(--tdl);
     min-width: 400px;
     max-width: 380px;
     margin: auto;
     border-radius: 7px;
-    box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 0px 15px var(--col2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,6 +114,9 @@ h4 {
   margin-bottom: 0px;
 }
 
+ul {
+  padding-left: 5px;
+}
 
 table {
     text-align: center;
@@ -143,7 +158,14 @@ footer {
 .barra {
   outline: none;
   border: none;
-  border-bottom: 2px solid #B542CA;
+  border-bottom: 2px solid var(--inpt);
+  background-color: var(--cdf);
+  color: var(--tdl);
+}
+
+.trocatema {
+  font-family: 'Playfair';
+    background-image: linear-gradient(to left, #000000, #303030);
 }
 
 /*div > p muda o estilo da tag p dentro de uma div*/
